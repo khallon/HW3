@@ -22,7 +22,7 @@ soup2 = soup2.replace("/sites/default/themes/umsi/imgs/logo_footer.png", "media/
 
 file = open("BSHW3_NEW.html",'w')
 file.write(soup2)
-
+file.close()
 
 
 

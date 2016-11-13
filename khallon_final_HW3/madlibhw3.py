@@ -30,7 +30,7 @@ debug = False #True
 if debug:
 	print ("Getting information from file madlib_test.txt...\n")
 
-text2[0:151]
+#text2[0:151]
 
 #print (text2.read())
 
@@ -45,7 +45,7 @@ text2[0:151]
 
 string = ""
 
-for word in text2[0:150]:
+for word in text2[0:151]:
 	string= string + word + " "
 	
 print (string)
